@@ -41,7 +41,7 @@ class MedicalInsurance():
         print("predicted_charges",predicted_charges)
         return np.around(predicted_charges, 2)
 
-
+# predict accuracy medical insurence change
 if __name__ == "__main__":
     age = 60
     sex = "female"
